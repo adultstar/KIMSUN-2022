@@ -1,0 +1,8 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}

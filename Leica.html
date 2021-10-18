@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <h3>Leica C2 Zoom</h3>
+  <body style="margin: 0">
+  <style media="screen">
+    
+    .inner {
+      width: 100vw;
+      float: left
+    }
+    .inner img{
+      width: 100%
+    }
+  </style>
+
+
+  <div style="overflow: hidden">
+    <div>
+    <div class="container">
+      <div class="inner">
+        <img src="Japan2.jpg">
+      </div>
+      <div class="inner">
+        <img src="Japan3.jpg">
+      </div>
+      <div class="inner">
+        <img src="Japan4.jpg">
+      </div>
+    </div>
+
+  </div>
+
+  <button class="First">1</button>
+  <button class="Second">2</button>
+  <button class="Third">3</button>
+
+  <script>
+    // 버튼2를 누르면
+    // transform: translate(-100vw)
+
+    document.querySelector('.First').addEventListener('click',function(){
+      document.querySelector('.container').style.transform = 'translate(-0vw)';
+    });
+
+    document.querySelector('.Second').addEventListener('click',function(){
+      document.querySelector('.container').style.transform = 'translate(-100vw)';
+    });
+
+
+    document.querySelector('.Third').addEventListener('click',function(){
+      document.querySelector('.container').style.transform = 'translate(-200vw)';
+    });
+
+  </script>
+
+
+
+  </body>
+</html>

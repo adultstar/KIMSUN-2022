@@ -1,0 +1,122 @@
+body {
+  border: 3px solid teal;
+}
+
+.playlist {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.playlist span {
+  margin: auto;
+}
+.random_love {
+  display: flex;
+}
+.random_love,
+.random_love_love {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.random_love_love {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+.random_love_title {
+  font-weight: 600;
+  font-size: 30px;
+}
+.random_love_subtitle {
+  font-weight: 500;
+  margin-top: 5px;
+}
+.play_second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.play_play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+}
+.play_heart,
+.play_plus {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+}
+.random_love_love_love {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  margin: 5px;
+}
+.random_love_love_llove {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  margin: 5px;
+}
+.random_love_love_lllove {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  margin: 5px;
+}
+.random_love_title_1 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10px;
+}

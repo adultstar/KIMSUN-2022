@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa clone</title>
+  </head>
+  <body style="margin: 0">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:02</span>
+      </div>
+      <div class="status-bar__column">
+        <span>80%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header story-header">
+      <h1 class="screen-header__title">My Story</h1>
+     
+       
+            
+    </header>
+    
+      <style media="screen">
+        
+      
+      </style>
+    
+    
+      <div style="overflow: hidden">
+        <div class="story-container">
+        <div class="container">
+          <div class="inner">
+            <img src="1.jpg">
+          </div>
+          <div class="inner">
+            <img src="2.jpg">
+          </div>
+          <div class="inner">
+            <img src="3.jpg">
+          </div>
+        </div>
+    
+      </div>
+    <div class="story-button">    <button class="First">1</button>
+      <a href=""></a><button class="Second">2</button>
+      <button class="Third">3</button></div>
+  
+    
+      <script>
+        // 버튼2를 누르면
+        // transform: translate(-100vw)
+    
+        document.querySelector('.First').addEventListener('click',function(){
+          document.querySelector('.container').style.transform = 'translate(-0vw)';
+        });
+    
+        document.querySelector('.Second').addEventListener('click',function(){
+          document.querySelector('.container').style.transform = 'translate(-100vw)';
+        });
+    
+    
+        document.querySelector('.Third').addEventListener('click',function(){
+          document.querySelector('.container').style.transform = 'translate(-200vw)';
+        });
+    
+      </script>
+    
+    
+    
+   
+   
+  <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">37</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__elipsis"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+   
+    <script
+      src="https://kit.fontawesome.com/738b7b4bdc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

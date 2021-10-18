@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Make new account</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        font-family: "Jua", sans-serif;
+      }
+      body {
+        position: fixed;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: beige;
+      }
+      .item-img img {
+        width: 300px;
+        height: 300px;
+        margin-left: 38px;
+      }
+      .item-img {
+        width: 200px;
+        height: 200px;
+        opacity: 0.8;
+      }
+
+      .price {
+        font-size: 20px;
+      }
+
+      .item-desc {
+        width: 500px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 10px;
+      }
+
+      .item-order {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
+      }
+
+      .btn-order {
+        margin: auto;
+        width: 100px;
+
+        display: block;
+      }
+      .wrap {
+        width: 500px;
+        margin: auto;
+      }
+      .btn-order {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .button {
+        margin-right: 110px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="item-desc">
+        <h1>Welcome to DogHaus</h1>
+      </div>
+      <div class="item-img"><img src="doz.jpg" alt="" /></div>
+      <div class="item-order">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">User ID</span>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Default"
+            aria-describedby="inputGroup-sizing-default"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01"
+              >Pet Kinds
+            </label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>-- select from list --</option>
+            <option value="1">Shih Tzu</option>
+            <option value="2">Maltese</option>
+            <option value="3">Pomeranian</option>
+            <option value="3">Toy Poodle</option>
+            <option value="3">Bichon Frise</option>
+            <option value="3">German Shepherd</option>
+            <option value="3">Samoyed</option>
+          </select>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01"
+              >Gender
+            </label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>-- selec from list --</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Address</span>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Default"
+            aria-describedby="inputGroup-sizing-default"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Phone Number</span>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Default"
+            aria-describedby="inputGroup-sizing-default"
+          />
+        </div>
+        <div class="button">
+          <a href="index.html">
+            <button
+              type="button"
+              onclick="order()"
+              class="btn btn-primary btn-order"
+            >
+              Submit
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
