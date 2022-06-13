@@ -1,3 +1,3 @@
-# Kokoa Clone 2021 Update
+# KIM SUN 2022 Update
 
 HTML & CSS are so much fin!
